@@ -1,0 +1,51 @@
+.header-container {
+  width: 100vw;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 48px 16px 48px;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .header-container {
+    padding: 14px 28px 14px 28px;
+    height: 64px;
+  }
+}
+
+.game-logo {
+  height: 46px;
+  width: 77px;
+}
+
+.logout-btn {
+  width: 86px;
+  height: 36px;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  outline: none;
+  border: 2px solid #afafaf;
+  color: #afafaf;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+  .logout-btn {
+    display: none;
+  }
+}
+
+.logout-icon {
+  height: 34px;
+  width: 34px;
+  color: #afafaf;
+}
+
+@media screen and (min-width: 768px) {
+  .logout-icon {
+    display: none;
+  }
+}
